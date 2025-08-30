@@ -12,7 +12,7 @@
             background-color: #f4f4f4;
         }
         header {
-            background: #35424a;
+            background: #ff7f50; /* Màu cam */
             color: #ffffff;
             padding: 20px 0;
             text-align: center;
@@ -39,13 +39,25 @@
             border-radius: 5px;
         }
         footer {
-            background: #35424a;
+            background: #ff7f50; /* Màu cam */
             color: #ffffff;
             text-align: center;
             padding: 10px 0;
             position: relative;
             bottom: 0;
             width: 100%;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            background: #e2e2e2;
+            padding: 15px;
+            border-radius: 5px;
+            flex: 1;
+            margin: 0 10px;
         }
     </style>
 </head>
@@ -58,9 +70,25 @@
 <div class="container">
     <div class="content">
         <h2>Your Creative Hub</h2>
-        <img src="https://via.placeholder.com/800x400" alt="Creative Studio">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7uBs-tU3gmNDQ2voRlyGeKj_QH3Kr5hF9ww&s" alt="Creative Studio">
         <p>At Go Go Studio, we specialize in creating stunning applications and engaging digital experiences. Join us on our journey to innovation!</p>
         <p>Contact us at: <a href="mailto:tranhuuluong888@gmail.com">tranhuuluong888@gmail.com</a></p>
+
+        <h3>Our Services</h3>
+        <div class="services">
+            <div class="service">
+                <h4>App Development</h4>
+                <p>We build high-quality mobile applications tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h4>Web Design</h4>
+                <p>Our team creates visually appealing and user-friendly websites.</p>
+            </div>
+            <div class="service">
+                <h4>Consulting</h4>
+                <p>We provide expert advice to help you achieve your digital goals.</p>
+            </div>
+        </div>
     </div>
 </div>
 
